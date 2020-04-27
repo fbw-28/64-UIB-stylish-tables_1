@@ -13,20 +13,14 @@ td {
     padding: 10px;
 }
 
-td:nth-child(3) {
+td:not(:nth-child(1)) {
     border-left: 4px solid #c0c0c0;
 }
 
-td:nth-child(2) {
-    border-left: 4px solid #c0c0c0;
-}
-
-td:first-child {
+tr:nth-child(odd) td:first-child {
     border-left: 4px solid #cc181b;
 }
 
-td:first-child:not(.first) {
+tr:nth-child(even) td:first-child {
     border-left: 4px solid #449d45;
 }
-
-/*   */
