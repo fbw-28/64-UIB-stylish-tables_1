@@ -1,0 +1,16 @@
+td{
+   
+    padding: 5px;
+}
+td:last-child{
+    border-left: 3px solid #c0c0c0;
+}
+td:nth-child(2){
+    border-left: 3px solid #c0c0c0;
+}
+td:first-child {
+    border-left: 3px solid  #449d45;
+}
+td:first-child:not(.green) {
+    border-left: 3px solid  #cc181b;
+}
