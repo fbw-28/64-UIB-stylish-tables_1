@@ -9,13 +9,13 @@ td {
 }
 
 td:not(:first-child) {
-    border-left: 4px solid gray;
+    border-left: 4px solid #c0c0c0;
 }
 
 tr:nth-child(odd) td:first-child {
-    border-left: 4px solid red;
+    border-left: 4px solid  #cc181b;
 }
 
 tr:nth-child(even) td:first-child {
-    border-left: 4px solid green;
+    border-left: 4px solid #449d45;
 }
