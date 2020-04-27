@@ -8,7 +8,7 @@ td:first-child {
     border-left: 4px solid #cc181b;
 }
 
-tr:nth-last-child(even) td:first-child {
+tr:nth-last-child(odd) td:first-child {
     border-left: 4px solid  #449d45;
 }
 
