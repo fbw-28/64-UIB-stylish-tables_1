@@ -1,0 +1,29 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding-top: 50px;
+}
+
+table{
+    font-size: 20px;
+    text-align: left;
+    font-weight: bold;
+}
+
+td{
+    padding: 10px 40px 10px 10px;
+    border-left: 6px solid #c0c0c0;
+}
+
+
+tr:nth-of-type(even) td:first-of-type {
+    border-left: 6px solid #449d45;
+}
+
+tr:nth-of-type(odd) td:first-of-type {
+    border-left: 6px solid #cc181b;
+}
