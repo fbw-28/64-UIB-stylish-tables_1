@@ -12,31 +12,14 @@ td {
     height: 35px;    
 }
 
-/* tried to make the first column border red and green by using `:first-child`, `:last-child`, `:nth-child` and `:not` but didn't work out. */
-
-.green {
-    border-left: 5px solid green;   
-    padding: 5px;
+tr:nth-child(odd) td:first-child {
+    border-left: 5px solid #cc181b;
 }
 
-.red {
-    border-left: 5px solid red;  
-    padding: 5px; 
+tr:nth-child(even) td:first-child {
+    border-left: 5px solid #449d45;
 }
 
-td:nth-of-type(2) {
-    border-left: 5px solid grey;
-    padding: 5px;
+td:not(:first-child) {
+    border-left: 5px solid #c0c0c0;
 }
-
-td:nth-of-type(3) {
-    border-left: 5px solid grey;
-    padding: 5px;
-}
-
-
-/* 
-.items:nth-of-type(even) {
-    background-color: rgb(109, 226, 134);
-} */
-
