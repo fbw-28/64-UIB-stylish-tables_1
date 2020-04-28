@@ -1,0 +1,26 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+table {
+    margin: 50px;
+}
+
+td {
+    padding: 10px;
+}
+
+td:not(:nth-child(1)) {
+    border-left: 4px solid #c0c0c0;
+}
+
+tr:nth-child(odd) td:first-child {
+    border-left: 4px solid #cc181b;
+}
+
+tr:nth-child(even) td:first-child {
+    border-left: 4px solid #449d45;
+}
