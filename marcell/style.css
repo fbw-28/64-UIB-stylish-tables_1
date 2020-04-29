@@ -1,14 +1,7 @@
 td {
     padding: 0.5rem;
+    border-left: 3px solid #c0c0c0;
  }
-
-td:nth-child(2) {
-    border-left: 3px solid #c0c0c0;
-}
-
-td:last-child {
-    border-left: 3px solid #c0c0c0;
-}
 
 td:first-child {
     border-left: 3px solid #cc181b ;
@@ -16,8 +9,4 @@ td:first-child {
 
 tr:nth-last-of-type(odd) td:first-child {
     border-left: 3px solid  #449d45;
-}
-
-:not(td) {
-    background-color: white;
 }
