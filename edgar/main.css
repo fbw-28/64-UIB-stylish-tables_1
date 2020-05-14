@@ -1,0 +1,31 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding-top: 50px;
+}
+
+table{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+td{
+    padding: 10px 40px 10px 10px;
+}
+
+td:not(:first-child){
+    border-left: 6px solid #c0c0c0;
+}
+
+tr:nth-child(odd) td:first-child {
+    border-left: 6px solid #cc181b;
+}
+
+tr:nth-child(even) td:first-child {
+    border-left: 6px solid #449d45;
+}
+
